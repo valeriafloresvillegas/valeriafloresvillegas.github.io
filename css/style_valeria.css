@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, main, footer{
+    width: 100%;
+    padding: 30px;
+    color: #380C0A;
+}
+header, footer{
+    background-color: #E94845;
+    text-align: center;
+    font-size: 48px;
+}
+nav{
+    height: 120px;
+    background-color: #DDAEAC;
+}
+main{
+    height: auto;
+    background-color: #380C0A;
+    color:
+}
+footer{
+   font-size: 24px; 
+}
+section{
+    width: 70%;
+    background-color: #DDAEAC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 30px;    
+    font-family: font-family: "Figtree", serif;
+}
+p{
+    margin-top: 20px
+}
+nav ul {
+    text-align: center;
+    
+}
+nav ul li{
+    list-style-type: none;
+    width: 10%;
+    min-width: 120px;
+    background-color: #DDAEAC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;  
+    list-style-type: none;
+    
+}
+img {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+#imagen_animada{
+    width: 50%;
+}
+#imagen_ico{
+    width: 60px;
+    height: auto;
+    margin-right: 0;
+}
+.imagenes_flotantes{
+    width: 5%;
+}
+#img_left{
+    float: left;
+    margin-right: 20px;
+    margin-top: 0;
+}
+#img_right{
+    float: right;
+    margin-top: 0;
+}
+#fondo_imagen{
+    background-image: url("../imagenes/backround-coco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.parrafo_1{
+    width: 50%;
+    color: moccasin;
+}
+p{
+    margin-bottom: 20px;
+}
+audio, iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video /*iframe*/ {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+}
+.box_videos{
+    text-align: center;
+}
+.box_videos section{
+    width: 40%;
+    min-width: 360px;
+    height: 700px;
+    overflow-y: auto;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+        
+}
+h1{
+     font-family: "Exo 2", serif;
+    font-size: 46px;
+}
+h2{
+    font-family: "Figtree", serif;
+}
